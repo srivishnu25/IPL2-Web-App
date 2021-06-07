@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+}
+a,button{
+    text-decoration: none;
+    cursor:pointer;
+}
+body{
+    background-color: #29539b;
+background-image: linear-gradient(315deg, #29539b 0%, #1e3b70 74%);
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    padding:15px 0px;
+    background-color: #fce055;
+    background-image: linear-gradient(319deg, #fce055 0%, #256eff 37%, #46237a 100%);
+    text-align: center;
+    position:sticky;
+    top:0;
+    z-index:1;
+    
+}
+header h2{
+    margin-right:0px;
+    font-size: 40px;
+    color: #ffffff;
+    
+}
+.topPart{
+    position: relative;
+    top:-40px;
+    width:30%;
+    justify-content: space-around;
+    float:right;
+    display:flex;
+    padding:5px 0px;
+    align-items: center;
+}
+.topPart form{
+    position:relative;
+}
+.topPart img{
+    width: 15px;
+    position:absolute;
+    top:12px;
+    right:62%;
+}
+#search{
+    padding:4px;
+    border:none;
+    border-radius: 4px;
+}
+.topPart button{
+    border:none;
+    padding:5px 10px;
+    background-color: #fce77f;
+    font-size:15px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 6px grey;
+}
+#teamHeading{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    letter-spacing: 15px; 
+    font-size: 35px;
+    color:#ffffff;
+}
+#teamWrapper{
+    width:75%;
+    padding:3% 2%;
+    margin:50px auto 0px auto;
+    height:90vh;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.cardWrapper{
+    background-color: #ffffff;
+    background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+    box-shadow: 4px 1px 10px grey;
+    border-radius: 5px;
+    width:25%;
+    height:300px;
+    max-height:fit-content ;
+    margin:2%;
+    padding:10px 15px;
+    text-align: center;
+}
+.cards{
+    width:100%;
+}
+.teamLogos{
+    width:100%;
+    height:100%;
+    max-height: 200px;
+}
+.teamName{
+    margin-top:20px;
+    font-size:20px;
+    color:rgb(83, 80, 80);
+}
+

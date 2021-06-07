@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL WEBSITE</title>
+    <link href="./index.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <h2>Indian Premier League</h2>
+        <div class="topPart">
+        <form autocomplete="off">
+            <input id="search1" type="text" placeholder="search team"/>
+        </form>
+            <img id="search-icon" src="https://cdn3.iconfinder.com/data/icons/flaticons-1/24/flaticon_search-512.png" alt="search-icon"/>
+        
+        <button id="addTeam">Add Team</button>
+        <button id="addPlayer">Add Player</button>
+    </div>
+    </header>
+    <h3 id="teamHeading">TEAMS</h3>
+    <section>
+      <div id="teamWrapper">
+      </div>
+    </section>
+
+   <script src="./index.js"></script> 
+</body>
+</html>
